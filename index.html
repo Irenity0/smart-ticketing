@@ -65,7 +65,7 @@
         </section>
         
         <!-- cards section starts here -->
-        <section class="flex justify-between mr-14 m-14 -mt-16"> <!-- Added negative margin -->
+        <section class="flex flex-col lg:flex-row gap-4 justify-between mr-14 m-14 -mt-16"> <!-- Added negative margin -->
             <!-- card 01 -->
             <div class="card card-side bg-gray-800 shadow-xl border-b-2 px-16 border-b-[#1dd100]">
                 <figure>
@@ -101,5 +101,67 @@
         </section>
         <!-- cards section ends here -->
     </header>
+
+    <main class="w-10/12 m-auto mt-4">
+        <!-- coupon section starts here -->
+        <section id="coupon-section" class="my-20 w-11/12 mx-auto text-black">
+            <!-- section heading -->
+            <div id="section-heading" class="text-center">
+                <h3 class="sm:text-5xl text-4xl font-bold capitalize">
+                    Best Offers for you
+                </h3>
+            </div>
+            <!-- coupon cards -->
+            <div class="grid lg:grid-cols-2 gap-10 my-10">
+                <div
+                    class="bg-amber-400 px-14 py-10 rounded-2xl shadow-xl flex sm:flex-row flex-col justify-between items-center font-Inter relative overflow-hidden">
+                    <div class="z-10">
+                        <h3 class="sm:text-6xl text-4xl sm:text-left text-center font-extrabold">15% OFF
+                        </h3>
+                        <h4 class="sm:text-2xl text-lg text-center sm:text-left font-semibold sm:py-1 text-slate-900">on your next purchase</h4>
+                        <p class="text-xl tracking-widest text-body text-slate-800">
+                            use by February 2024
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-full overflow-hidden">
+                        <span
+                            class="bg-[#1c232b] inline-block w-10 h-10 rounded-full absolute -top-5 sm:right-auto right-16"></span>
+                        <span
+                            class="inline-block border-2 border-dashed border-[#1c232b] h-full rounded-full absolute top-0 sm:right-auto right-20"></span>
+                        <span
+                            class="bg-[#1c232b] inline-block w-10 h-10 rounded-full absolute -bottom-5 sm:right-auto right-16"></span>
+                    </div>
+                    <div class="text-center z-10">
+                        <h3 class="text-4xl font-extrabold">NEW50</h3>
+                        <p class="text-lg text-body text-slate-800">Coupon Code</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-rose-400 px-14 py-10 rounded-2xl shadow-xl flex sm:flex-row flex-col justify-between items-center font-Inter relative overflow-hidden">
+                    <div>
+                        <h3 class="sm:text-6xl text-4xl sm:text-left text-center font-extrabold">20% OFF</h3>
+                        <h4 class="sm:text-2xl text-lg text-center sm:text-left font-semibold sm:py-1">on your next purchase</h4>
+                        <p class="text-xl tracking-widest text-body text-slate-800">use by February 2024</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-full overflow-hidden">
+                        <span class="bg-[#1c232b] inline-block w-10 h-10 rounded-full absolute -top-5 sm:right-auto right-16"></span>
+                        <span class="inline-block border-2 border-dashed border-[#1c232b] h-full rounded-full absolute top-0 sm:right-auto right-20"></span>
+                        <span class="bg-[#1c232b] inline-block w-10 h-10 rounded-full absolute -bottom-5 sm:right-auto right-16"></span>
+                    </div>
+                    <div class="text-center z-10">
+                        <h3 class="text-4xl font-extrabold">Couple 20</h3>
+                        <p class="text-lg text-body text-slate-800">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button
+                    class="btn bg-transparent px-10 hover:bg-primary hover border-primary hover:border-primary text-primary font-bold">
+                    See All Offers
+                </button>
+            </div>
+        </section>
+        <!-- coupon section ends here -->
+    </main>
 </body>
 </html>
