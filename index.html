@@ -12,9 +12,94 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- fontAwesome -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-     Hi.
+    <header class="w-10/12 m-auto mt-4">
+        <!-- navigation section starts here -->
+        <nav class="mb-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"/>
+                            </svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-3xl font-bold">P-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-[#1dd100]/20 px-8">Bus <i class="fa-solid fa-bus"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation section ends here -->
+
+        <!-- banner section starts here -->
+        <section>
+            <div class="hero min-h-screen rounded-3xl" style="background-image: url('banner.png');">
+                <div class="hero-overlay rounded-3xl"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with <span class="text-[#1dd100]">P Paribahan</span></h1>
+                        <p class="mb-5">Yes you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.</p>
+                        <button class="btn btn-primary border-none bg-[#1dd100]">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- cards section starts here -->
+        <section class="flex justify-between mr-14 m-14 -mt-16"> <!-- Added negative margin -->
+            <!-- card 01 -->
+            <div class="card card-side bg-gray-800 shadow-xl border-b-2 px-16 border-b-[#1dd100]">
+                <figure>
+                    <img src="people.png" alt="">
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title text-2xl">500K+</h2>
+                    <p>Registered users</p>
+                </div>
+            </div>
+
+            <!-- card 02 -->
+            <div class="card card-side bg-gray-800 shadow-xl border-b-2 px-16 border-b-[#1dd100]">
+                <figure>
+                    <img src="people.png" alt="">
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title text-2xl">1.7 Lakh</h2>
+                    <p>Tickets sold</p>
+                </div>
+            </div>
+
+            <!-- card 03 -->
+            <div class="card card-side bg-gray-800 shadow-xl border-b-2 px-16 border-b-[#1dd100]">
+                <figure>
+                    <img src="people.png" alt="">
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title text-2xl">80K+</h2>
+                    <p>Rental Partners</p>
+                </div>
+            </div>
+        </section>
+        <!-- cards section ends here -->
+    </header>
 </body>
 </html>

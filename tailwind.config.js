@@ -3,8 +3,8 @@ module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
     	extend: {
-			color: {
-				primary: '#1dd100',
+			colors: {
+				primaryGreen: '#1dd100',
 				secondary: '#030712',
 				couponOne: '#ffbf0f',
 				couponTwo: '#f78c9c',
